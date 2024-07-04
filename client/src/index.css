@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .min-h-screen {
+  min-height: 100vh;  Default for smaller screens 
+} */
+
+@media (min-width: 768px) {
+  .min-h-screen {
+    min-height: 87.8vh; /* Adjust for larger screens */
+  }
+}

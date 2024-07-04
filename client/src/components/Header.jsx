@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 export default function Header() {
@@ -31,9 +31,9 @@ export default function Header() {
       </div>
     </div>
   );
-}
+} */
 
-/* import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 export default function Header() {
@@ -47,7 +47,7 @@ export default function Header() {
             <span className="bg-white text-navy-blue px-1">Vault</span>
           </h1>
         </Link>
-        <ul className="flex gap-12 uppercase">
+        <ul className="flex gap-4 uppercase">
           <Link
             to="/"
             className="hover:underline hover:underline-offset-8 hover:decoration-2"
@@ -79,4 +79,3 @@ export default function Header() {
     </div>
   );
 }
- */
